@@ -59,7 +59,7 @@ def menu():
             subject_id = click.prompt("Enter subject id", type = int)
             new_score = click.prompt("Enter new score", type = int)
             update_score(student_id, subject_id,new_score)
-            print(f'{new_score} updated')
+            click.echo(f'{new_score} updated')
         elif choice == 5:
             students = get_all_students()
             for student in students:
