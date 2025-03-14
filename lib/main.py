@@ -66,6 +66,7 @@ def menu():
                 click.echo(f"Student: {student['name']}")
                 for score in student['scores']:
                     click.echo(f"Subject: {score['subject']}, {score['score']}")
+                click.echo("-" * 40)
         elif choice == 6:
             student_id = click.prompt("Enter student id", type = int)
             student =find_student_by_id(student_id)

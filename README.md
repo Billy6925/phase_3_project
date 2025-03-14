@@ -33,7 +33,7 @@ Install the dependencies using pip install pipenv
 Run pipenv shell to create your vitual environment
 
 #Navigating
-Once in your virtual environment, navigate to the lib directory. From the lib directory input python3 seed.py to populate the database and then run python3 main.py to access the cli menu. Interact with the cli by selecting the options provided and keying-in input.
+Once in your virtual environment, navigate to the lib directory. From the lib directory input python3 seed.py to populate the database and then run python3 main.py menu to access the cli menu. Interact with the cli by selecting the options provided and keying-in input.
 
 #Contributing
 To contribute to this project:
